@@ -4,13 +4,13 @@ This is the code for a k-means model used to analyse a hacking attack dataset.
 
 ## Overview
 
-I built two k-means models to identify whether two hackers or three hackers were involved in an attack. Models were built using the [Apache Spark MLlib](https://spark.apache.org/docs/latest/ml-guide.html) library. The inputs are numeric values. There is no output because this is a clustering project.
+I built two k-means models to identify whether two hackers or three hackers were involved in an attack. Models were built using the [Spark MLlib](https://spark.apache.org/docs/latest/ml-guide.html) library. The inputs are numeric values. There is no output because this is a clustering project.
 
 The final result based on cluster analysis was that there were only **two** hackers involved with the attacks.
 
 ## Dependencies
 
-- spark
+- pyspark
 
 Install dependencies using [pip](https://pip.pypa.io/en/stable/).
 
